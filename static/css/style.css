@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+
+img.builder {
+    border-radius: 50%;
+    height: 15rem;
+    padding: 1rem;
+}
+
+section.main-hero {
+    text-align: center;
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+}
+
+section.main-hero p.skills {
+    padding-bottom: 1rem;
+}
+
+section.portfolio {
+    background-color: #f5f5f5;
+    color: #1c1c1c;
+}
+
+section.skills {
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+footer {
+    background-color: #111111;
+    color: #f5f5f5;
+    font-size: .9rem;
+    padding: 1rem;
+
+    text-align: center;
+}
+
+span.technology {
+    border-radius: .7rem;
+    color: #f5f5f5;
+    font-size: .8rem;
+    padding: .1rem .4rem;
+    font-weight: bold;
+}
+
+.golang-pill {
+    background-color: #40AAB7;
+}
+
+.python-pill {
+    background-color: #cbba3d;
+}
+
+.django-pill {
+    background-color: #004F35;
+}
+
+.javascript-pill {
+    background-color: #7a3641;
+}
+
+.android-pill {
+    background-color: #4ECE5A;
+}
+
+.flask-pill {
+    background-color: #757875;
+}
+
+.vue-pill {
+    background-color: #00c086;
+}
+
+.sass-pill {
+    background-color: #E14F97;
+}
+
+.TCP-pill {
+    background-color: #b98c18;
+}
+
+div.display {
+    border-left: 3px solid #1c1c1c;
+    margin: 2rem 0;
+    padding: .5rem;
+    font-weight: lighter;
+}
+
+div.modal {
+    top: 0;
+    left: 0;
+    position: fixed;
+    visibility: hidden;
+}
